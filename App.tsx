@@ -138,7 +138,7 @@ const App: React.FC = () => {
     if (hasStarted && isPlaying) {
       interval = setInterval(() => {
         nextSlide();
-      }, 5000); // 5 seconds per slide
+      }, 8000); // GANTI DISINI: 5000 = 5 detik, 8000 = 8 detik. Saya ubah jadi 8 detik agar lebih lama.
     }
     return () => clearInterval(interval);
   }, [hasStarted, isPlaying, currentSlide]);
