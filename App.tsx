@@ -86,7 +86,7 @@ const App: React.FC = () => {
 
   const triggerConfetti = () => {
     // Efek ledakan confetti yang meriah
-    const duration = 3 * 4000;
+    const duration = 3 * 6000;
     const animationEnd = Date.now() + duration;
     const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 100 };
 
@@ -175,7 +175,7 @@ const App: React.FC = () => {
               className="group relative px-8 py-3 bg-white text-black rounded-full font-bold tracking-wider hover:bg-rose-50 transition-all transform hover:scale-105 active:scale-95 overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.3)]"
             >
               <span className="relative z-10 flex items-center gap-2 text-sm">
-                BUKA HADIAH <Sparkles className="w-4 h-4 text-rose-500" />
+                BUKA <Sparkles className="w-4 h-4 text-rose-500" />
               </span>
             </button>
             <p className="text-gray-500 text-[10px] mt-8">Nyalakan suara untuk pengalaman terbaik 🔊</p>
