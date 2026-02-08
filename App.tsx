@@ -86,7 +86,7 @@ const App: React.FC = () => {
 
   const triggerConfetti = () => {
     // Efek ledakan confetti yang meriah
-    const duration = 3 * 6000;
+    const duration = 4 * 6000;
     const animationEnd = Date.now() + duration;
     const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 100 };
 
@@ -101,7 +101,7 @@ const App: React.FC = () => {
         return clearInterval(interval);
       }
 
-      const particleCount = 50 * (timeLeft / duration);
+      const particleCount = 60 * (timeLeft / duration);
       // since particles fall down, start a bit higher than random
       confetti({ ...defaults, particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 }, colors: ['#f43f5e', '#ec4899', '#ffffff'] });
       confetti({ ...defaults, particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 }, colors: ['#f43f5e', '#ec4899', '#ffffff'] });
@@ -167,8 +167,8 @@ const App: React.FC = () => {
                   text-sm (kecil), text-lg (sedang), text-xl (besar), text-2xl (lebih besar) 
                   Ganti className di bawah ini untuk mengubah ukuran */}
               <h1 className="text-lg serif-font text-white mb-2">Untuk Istriku</h1>
-              <h2 className="text-2xl serif-font text-white mb-2">Siti Halimah</h2>
-              <p className="text-sm text-rose-300 italic">Edisi Ulang Tahun ke-31</p>
+              <h2 className="text-4xl serif-font text-white mb-2">Siti Halimah</h2>
+              <p className="text-sm text-rose-300 italic">Selamat Ulang Tahun ke-31</p>
             </div>
             <button 
               onClick={handleStart}
@@ -178,7 +178,6 @@ const App: React.FC = () => {
                 BUKA <Sparkles className="w-4 h-4 text-rose-500" />
               </span>
             </button>
-            <p className="text-gray-500 text-[10px] mt-8">Nyalakan suara untuk pengalaman terbaik 🔊</p>
           </div>
         )}
 
