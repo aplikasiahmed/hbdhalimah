@@ -18,7 +18,9 @@ const PHOTOS = {
   // Foto Slide 4 (Doa)
   slide4: "https://bmcenhkcwuxnclmlcriy.supabase.co/storage/v1/object/sign/halimah/WhatsApp%20Image%202026-02-07%20at%2018.22.444.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9iODZjZjM2NS1mNTBmLTQwMmQtYjUwMC00Mjg3YjVlYTgxYzkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJoYWxpbWFoL1doYXRzQXBwIEltYWdlIDIwMjYtMDItMDcgYXQgMTguMjIuNDQ0LmpwZWciLCJpYXQiOjE3NzA0NjM0ODUsImV4cCI6MTgwMTk5OTQ4NX0.8RXVcFJpWuPK-yYRazAKPwq-kU8ZKbxu0pCwbn-4HA8",
   // Foto Slide 5 (Penutup)
-  slide5: "https://bmcenhkcwuxnclmlcriy.supabase.co/storage/v1/object/sign/halimah/WhatsApp%20Image%202026-02-07%20at%2018.22.44.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9iODZjZjM2NS1mNTBmLTQwMmQtYjUwMC00Mjg3YjVlYTgxYzkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJoYWxpbWFoL1doYXRzQXBwIEltYWdlIDIwMjYtMDItMDcgYXQgMTguMjIuNDQuanBlZyIsImlhdCI6MTc3MDQ2MzUwNSwiZXhwIjoxODAxOTk5NTA1fQ.VTUyu0RlXL2BEv6vzDLSTvbgcOKySQ4Zej_ztEh9v5w"
+  slide5: "https://bmcenhkcwuxnclmlcriy.supabase.co/storage/v1/object/sign/halimah/WhatsApp%20Image%202026-02-07%20at%2018.22.44.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9iODZjZjM2NS1mNTBmLTQwMmQtYjUwMC00Mjg3YjVlYTgxYzkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJoYWxpbWFoL1doYXRzQXBwIEltYWdlIDIwMjYtMDItMDcgYXQgMTguMjIuNDQuanBlZyIsImlhdCI6MTc3MDQ2MzUwNSwiZXhwIjoxODAxOTk5NTA1fQ.VTUyu0RlXL2BEv6vzDLSTvbgcOKySQ4Zej_ztEh9v5w",
+  // Foto Slide 6 (Baru - Harapan Rumah Tangga)
+  slide6: "https://bmcenhkcwuxnclmlcriy.supabase.co/storage/v1/object/sign/halimah/WhatsApp%20Image%202026-02-07%20at%2018.03.16.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9iODZjZjM2NS1mNTBmLTQwMmQtYjUwMC00Mjg3YjVlYTgxYzkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJoYWxpbWFoL1doYXRzQXBwIEltYWdlIDIwMjYtMDItMDcgYXQgMTguMDMuMTYuanBlZyIsImlhdCI6MTc3MDU0NDkzNiwiZXhwIjoxODAyMDgwOTM2fQ.Dxoe-T3fIjN_DXaP2OA_hBbWTZXVjaXeWxbM3Sxznjk"
 };
 
 // Slide Data Structure
@@ -69,6 +71,13 @@ const App: React.FC = () => {
     },
     {
       id: 5,
+      title: "Harapan Kita",
+      subtitle: "Till Jannah",
+      text: "Semoga rumah tangga kita senantiasa langgeng, sakinah, mawaddah, warahmah. Bersamamu adalah anugerah terindah dalam hidupku.",
+      bgImage: PHOTOS.slide6
+    },
+    {
+      id: 6,
       title: "I Love You",
       subtitle: "Selamanya",
       text: "Tidak ada kata yang cukup untuk menggambarkan betapa berartinya dirimu. Happy Birthday, Sayangku!",
